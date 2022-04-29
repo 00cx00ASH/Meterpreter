@@ -1,0 +1,4 @@
+These commands help you to interact with the victim's web cam, if it has one currently connected.
+
+webcam_list: Lists the webcams available on the victim.
+webcam_snap: Take a photo using the selected webcam.
