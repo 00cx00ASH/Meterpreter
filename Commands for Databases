@@ -1,0 +1,1 @@
+This session has only one command, hashdump. This command will dump all the victim's password hashes so that later you can find out which passwords using rainbow tables or John The Ripper.
