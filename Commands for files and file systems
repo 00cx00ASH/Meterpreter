@@ -1,0 +1,17 @@
+With these commands you can use both local and remote files.
+
+cat: Works just like cat in Linux. Allows you to display on the screen the contents of the file that you pass as a parameter to this command. The file must be on the remote machine and you need to provide the full path to it.
+cd: Using this command you can change the directory where you are on the remote machine.
+download: With this command you can download any file that is on the remote machine and save it on your machine.
+edit: Allows you to edit a file from the remote machine with your machine's default editor. Note that the file you want to edit must be in your current directory or the command will not work. To change directory, use the “cd” command as described above. Only files that already exist can be edited, this command will not create a new file.
+getlwd: Shows which directory you are in on your local machine, not the victim.
+getwd: Shows the current directory on the remote host.
+lcd: Changes to another directory on your local machine where Mestaploit is being used.
+lpwd: Shows the current directory on the local machine.
+ls: Lists the contents of a directory on the remote machine.
+mkdir: Creates a directory on the remote machine.
+pwd: Shows the current directory on the remote machine.
+rm: Deletes a file from the remote machine.
+rmdir: Deletes an empty directory from the remote machine.
+search: Searches a file on the remote machine using the regular expression you define with the -f option. With the -d flag you can set the directory where the search will start. The -r option allows you to define whether the search should be recursive or not.
+upload: Upload a file from the local machine to the victim. One of Meterpreter's most useful commands.
