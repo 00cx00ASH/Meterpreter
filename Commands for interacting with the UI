@@ -1,0 +1,10 @@
+These commands let you more easily interact with the victim's keyboard and desktop.
+
+enumdesktops: Shows how many active desktops the victim has.
+getdesktop: Shows which is the current desktop where Meterpreter is running.
+idletime: Shows the time (in seconds) that the user on the remote machine is idle.
+keyscan_dump: Shows what was captured with the keylogger.
+keyscan_start: Starts the keylogger.
+keyscan_stop: Stops the keylogger.
+screenshot: Take a picture of the remote desktop.
+setdesktop: Switch to another desktop if the remote machine has more than one.
