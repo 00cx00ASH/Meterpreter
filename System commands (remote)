@@ -1,0 +1,15 @@
+clearev: Apaga todo o event log para tentar encobrir seus rastros.
+drop_token: Se você usou algum token para se tornar algum usuário do sistema, este comando faz com que você deixe de ser aquele usuário.
+execute: Executa um comando.
+getpid: Mostra o PID do processo correspondente ao Meterpreter na vítima.
+getprivs: Mostra os privilégios do processo Meterpreter na vítima.
+getuid: Mostra sob qual usuário o processo Meterpreter está sendo executado.
+kill: Mata o PID que você informar.
+ps: Mostra detalhes (inclusive PID) de todos os processos que estão rodando na vítima.
+reboot: Reinicia a máquina remota.
+reg: Permite que você interaja com o registro da máquina remota. Este comando é bem completo, dê uma lida no banner de ajuda dele (reg -h) para entender como injetar uma chave no registro da vítima.
+rev2self: Se você usou tokens para se tornar outro usuário, com este comando você volta a ser o usuário de antes.
+shell: Abre um shell (cmd.exe ou /bin/bash, por exemplo) na máquina remota. Quando você digitar “exit” no shell criado, vai voltar para o shell do Meterpreter.
+shutdown: Desliga a máquina remota.
+steal_token: Passa a usar a ID do usuário dono do PID especificado.
+sysinfo: Mostra várias informações sobre a vítima, como sistema operacional, língua utilizada, arquitetura, etc.
