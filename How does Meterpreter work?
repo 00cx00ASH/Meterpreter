@@ -1,0 +1,4 @@
+O Meterpreter é um payload do tipo staged, como já discutimos. Ele primeiro manda um pequeno executável para a vítima que será o responsável por se comunicar com a estação do atacante e pegar o resto das instruções a serem executadas. Para isso, ele precisa de uma conexão ativa com a máquina do atacante (ou qualquer outra máquina que tenha o resto do payload para enviar à vítima) para completar o ataque.
+Quando tudo estiver pronto, você entrará em um shell do Meterpreter (não da máquina vítima). Neste shell você pode fazer muitas coisas, desde migrar para outro processo do sistema até ativar um keylogger para ver tudo o que o usuário da máquina invadida digitou. Além disso, através do Meterpreter você também pode ter um shell direto na máquina remota.
+
+Vamos ver em detalhes cada uma das funções que o Meterpreter te oferece e como você
