@@ -1,0 +1,5 @@
+These commands will help you get more information about the victim's network settings.
+
+ifconfig/ipconfig: Display details of victim's network interfaces. Make no mistake, although ifconfig is the command for Linux and ipconfig the command for Windows you can run either of them regardless of what system is running on the remote machine and everything will work.
+portfwd: Forward a local port (on the machine where Metasploit is running) to a service on the remote machine.
+route: Mosta and allows you to make modifications to the victim's routing table.
