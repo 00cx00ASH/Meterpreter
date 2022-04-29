@@ -1,0 +1,1 @@
+Meterpreter is not a simple payload: it is a tool that assists the analyst in the “post-invasion” through multiple tools that allow things like stopping the anti-virus, dumping the hashes of the system passwords, migrating to another process, etc. With Meterpreter you can do practically anything on your victim just by typing a command.
