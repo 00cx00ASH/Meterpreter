@@ -1,0 +1,23 @@
+Core commands interact with Meterpreter itself.
+
+?: Show Meterpreter help explaining all commands.
+background: Sends the current session to the background and you return to msfconsole to continue working. To reconnect to this session, you need to run the command “sessions -l” in msfconsole and check the number of the session you want to connect to. Then type “sessions -i 1″ to connect to the session again (remember to replace the “1″ with the number of the session you want to interact with again).
+bgkill: Kills some process that was sent to the background previously. You need to use bglist to check the ID of the process you want to kill. Then you use “bgkill <process number>” to kill it.
+bglist: Lists processes running in the background. You need to run this command to only later be able to kill a process because you need to get the ID.
+bgrun: Runs a Meterpreter script (the ones you would normally run via the run command, explained later) directly in the background.
+channel: Shows information about active channels.
+close: Closes a channel.
+disable_unicode_encoding/enable_unicode_encoding: Enables or disables the use of Unicode.
+exit: Closes a Meterpreter session.
+help: Shows the help menu.
+info: Shows information about a module of type “post” (their names all start with “post”).
+interact: Opens a shell with the victim. When you close this shell, you will be returned to the Meterpreter prompt.
+irb: Opens a session of irb, Ruby's command interpreter.
+load: Loads Meterpreter extensions.
+migrate: Migrates Meterpreter to another process on the machine.
+quit: End the session.
+read: Read data from a channel.
+resource: Executes all the commands that are in the file that you pass as a parameter to this command.
+run: Run a script. We will see this command in detail later.
+use: This is an alias for the load command, explained earlier, which is falling into disuse.
+write: Writes data to an active channel.
